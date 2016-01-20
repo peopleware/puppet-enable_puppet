@@ -1,7 +1,7 @@
 class enable_puppet {
 
   package { 'puppet':
-    ensure => installed,
+    ensure => latest,
   }
 
   file { '/etc/default/puppet':
